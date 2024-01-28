@@ -345,7 +345,7 @@ extension CNContact {
             }
             result["urls"] = urlAddresses
         }
-        
+        /*
         if contact.isKeyAvailable(CNContactDatesKey) {
             var dates = [[String:Any]]()
             for date in contact.dates {
@@ -364,7 +364,7 @@ extension CNContact {
                     "date": bDay])
             }
             result["dates"] = dates
-        }
+        }*/
         return result
     }
     
